@@ -1,80 +1,55 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Your Name</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loading…</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="container" id="top">
+    <div class="stack gap-2">
+      <h1 id="name">Your Name</h1>
+      <p class="muted" id="label"></p>
+      <p class="muted" id="location"></p>
+      <p id="summary"></p>
 
-  <header>
-    <h1>Your Name</h1>
-    <p class="subtitle">Your Role / Profession</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+      <div class="row wrap gap-2" id="links"></div>
+      <div class="row wrap gap-2" id="skillTags"></div>
+    </div>
   </header>
 
-  <main>
-
-    <section id="about">
-      <h2>About</h2>
-      <p>
-        Short professional summary. 2–4 sentences about what you do,
-        what you specialize in, and what kind of work you’re looking for.
-      </p>
-    </section>
-
-    <section id="experience">
+  <main class="container stack gap-6">
+    <section id="experienceSection">
       <h2>Experience</h2>
-
-      <article>
-        <h3>Job Title — Company Name</h3>
-        <p class="meta">2022 – Present | Location</p>
-        <ul>
-          <li>Key accomplishment or responsibility</li>
-          <li>Another measurable impact</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>Previous Job — Company Name</h3>
-        <p class="meta">2020 – 2022 | Location</p>
-        <ul>
-          <li>What you achieved</li>
-          <li>Results or metrics</li>
-        </ul>
-      </article>
-
+      <div class="stack gap-4" id="experience"></div>
     </section>
 
-    <section id="projects">
+    <section id="projectsSection">
       <h2>Projects</h2>
-
-      <article>
-        <h3>Project Name</h3>
-        <p>Short description of what it is and why it matters.</p>
-      </article>
-
+      <div class="stack gap-4" id="projects"></div>
     </section>
 
-    <section id="contact">
+    <section id="publicationsSection">
+      <h2>Publications</h2>
+      <div class="stack gap-3" id="publications"></div>
+    </section>
+
+    <section id="educationSection">
+      <h2>Education</h2>
+      <div class="stack gap-4" id="education"></div>
+    </section>
+
+    <section id="contactSection">
       <h2>Contact</h2>
-      <p>Email: you@email.com</p>
-      <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
-      <p>GitHub: <a href="#">Your GitHub</a></p>
+      <p>Email: <a id="email" href=""></a></p>
     </section>
-
   </main>
 
-  <footer>
-    <p>© 2026 Your Name</p>
+  <footer class="container muted">
+    <p>© <span id="year"></span> <span id="footerName"></span></p>
   </footer>
 
+  <script type="module" src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,80 @@
+{
+  "basics": {
+    "name": "Your Name",
+    "label": "Lead Software Engineer (PhD)",
+    "location": "Dublin, Ireland",
+    "summary": "Lead software engineer with a research background (PhD). I build reliable systems, lead teams, and translate research ideas into production impact.",
+    "email": "you@email.com",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/yourusername" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/yourprofile" },
+      { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=YOURID" }
+    ]
+  },
+  "skills": [
+    { "name": "Languages", "items": ["TypeScript", "Python", "Go", "Java"] },
+    { "name": "Systems", "items": ["Distributed systems", "APIs", "Observability", "CI/CD"] },
+    { "name": "Research", "items": ["ML/Stats", "Experimentation", "Scientific computing"] }
+  ],
+  "experience": [
+    {
+      "title": "Lead Software Engineer",
+      "company": "Company Name",
+      "location": "Remote / Dublin",
+      "start": "2022-01",
+      "end": null,
+      "highlights": [
+        "Led a team of X engineers; delivered Y initiative improving Z by N%.",
+        "Designed and shipped a high-throughput service handling N req/s with p99 < Xms.",
+        "Introduced observability standards and reduced incident MTTR by N%."
+      ],
+      "tech": ["TypeScript", "Node.js", "AWS", "Postgres"]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Previous Company",
+      "location": "Location",
+      "start": "2019-06",
+      "end": "2021-12",
+      "highlights": [
+        "Built core platform features used by N internal teams.",
+        "Improved build/test pipeline time by N%."
+      ],
+      "tech": ["Python", "Kubernetes", "Terraform"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "PhD, Field",
+      "institution": "University Name",
+      "location": "Location",
+      "start": "2015",
+      "end": "2019",
+      "details": [
+        "Thesis: “Title of thesis”",
+        "Research areas: A, B, C",
+        "Selected publications: …"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "One-liner about the project and impact.",
+      "links": [
+        { "label": "Repo", "url": "https://github.com/yourusername/project" },
+        { "label": "Live", "url": "https://yourusername.github.io/project" }
+      ],
+      "tech": ["TypeScript", "D3.js"]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Paper Title",
+      "venue": "Conference / Journal",
+      "year": 2018,
+      "authors": "You, Coauthor, Coauthor",
+      "url": "https://example.com"
+    }
+  ]
+}
