@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Your Name",
-    "label": "Lead Software Engineer (PhD)",
+    "label": "Principal Embedded Software Design Engineer (PhD)",
     "location": "Dublin, Ireland",
-    "summary": "Lead software engineer with a research background (PhD). I build reliable systems, lead teams, and translate research ideas into production impact.",
+    "summary": "Systems-oriented engineer with a PhD in Information and Communication Technology and 18 years of combined academic and industry experience at the hardware–software boundary. I specialize in transforming complex, poorly understood systems into structured, validated, and testable designs.\nMy work spans novel low-power wireless protocol design (achieving order-of-magnitude energy efficiency improvements and “four nines” reliability under interference), model-driven hardware abstraction and API design, cross-layer debugging of analog–digital subsystems (PLL redesign enablement), infrastructure modernization (CMake-based build systems), automated verification frameworks, and formalization of release processes.\nI consistently increase clarity, automation, observability, and reproducibility — reducing technical and organizational entropy while enabling scalable development. I am most effective in roles requiring deep systems thinking, architectural judgment, and rigorous experimentation across multidisciplinary teams.",
     "email": "you@email.com",
     "links": [
       { "label": "GitHub", "url": "https://github.com/yourusername" },
